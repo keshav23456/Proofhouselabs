@@ -1,0 +1,12 @@
+{
+  "name": "Proofhouse Labs",
+  "short_name": "Proofhouse",
+  "description": "Certified cost reduction for AI agents.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12151A",
+  "theme_color": "#12151A",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

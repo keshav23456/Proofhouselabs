@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://proofhouselabs.com/sitemap.xml

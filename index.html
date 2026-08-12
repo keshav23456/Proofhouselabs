@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Proofhouse Labs — Certified Cost Reduction for AI Agents</title>
+  <meta name="description" content="Proofhouse Labs verifies that cheaper model stacks match frontier-model quality on your own production traffic — before you ship the swap. A calibrated verifier, not a benchmark, for customer support AI teams." />
+  <meta name="keywords" content="AI agent verification, LLM evaluation, model swap testing, AI cost reduction, customer support AI, agent benchmarking, calibrated verifier, production AI testing, LLM regression testing" />
+  <meta name="author" content="Proofhouse Labs" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://proofhouselabs.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Proofhouse Labs" />
+  <meta property="og:title" content="Proofhouse Labs — Certified Cost Reduction for AI Agents" />
+  <meta property="og:description" content="Verify a cheaper model stack against your own production task distribution before you ship it. Certified, not benchmarked." />
+  <meta property="og:url" content="https://proofhouselabs.com/" />
+  <meta property="og:image" content="https://proofhouselabs.com/logo.svg" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Proofhouse Labs — Certified Cost Reduction for AI Agents" />
+  <meta name="twitter:description" content="Verify a cheaper model stack against your own production task distribution before you ship it. Certified, not benchmarked." />
+  <meta name="twitter:image" content="https://proofhouselabs.com/logo.svg" />
+
+  <!-- Favicon / icons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#12151A" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,560;9..144,650&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Proofhouse Labs",
+    "url": "https://proofhouselabs.com",
+    "logo": "https://proofhouselabs.com/logo.svg",
+    "description": "Proofhouse Labs certifies that lower-cost model stacks preserve production-grade quality for AI customer support agents, using a calibrated verifier trained on your own task distribution.",
+    "sameAs": []
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Proofhouse",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "description": "A scoreable, production-derived task distribution and calibrated verifier that certifies cheaper LLM stacks against frontier-model quality before deployment.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/PreOrder"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is this different from a public benchmark?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Public benchmarks measure general capability on tasks nobody in particular asked for. Proofhouse builds a scoreable distribution from your own production traffic, so the certification answers whether the cheaper stack holds up on the tasks you actually get."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Proofhouse use open-weight models for the verifier?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Frontier APIs don't expose full logprobs, and a verifier without calibrated confidence is just another model guessing. Open-weight models provide the probability distribution needed to measure agreement reliably against a human-labeled holdout."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do teams get at the end of a certification run?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A signed certification report with a quality delta, a cost delta, and the specific failure cases the candidate model stack still gets wrong, plus raw scored transcripts."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
